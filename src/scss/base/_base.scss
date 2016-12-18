@@ -1,0 +1,22 @@
+// ==========================================================================
+// Base Styles
+// ==========================================================================
+
+* {
+  box-sizing: border-box;
+}
+
+html, 
+body {
+  height: 100%;
+  width: 100%;
+  min-width: 320px;
+  min-height: 480px;
+  
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-color: red;
+}

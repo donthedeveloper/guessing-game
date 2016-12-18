@@ -1,0 +1,27 @@
+{
+  "name": "guessing-game",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "gulp-sass": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donthedeveloper/guessing-game.git"
+  },
+  "author": "Don Hansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donthedeveloper/guessing-game/issues"
+  },
+  "homepage": "https://github.com/donthedeveloper/guessing-game#readme"
+}

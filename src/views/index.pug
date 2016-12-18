@@ -1,0 +1,26 @@
+doctype html
+html(lang="en")
+  head
+    title Guessing Game
+    link(rel='stylesheet', href='/static/css/application.css', type='text/css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', type='text/css')
+  body
+    .container.text-center
+      .header Titles and subtitles!
+        h1 Play the Guessing Game!
+        h2 Guess a number between 1-100!
+      .main
+        .input-container
+          form
+            input(type='text', name='inputNumber', placeholder='#')
+            input(type='submit', name='submit', value='Go!')
+        .guesses-container
+          ul
+            li -
+            li -
+            li -
+            li -
+            li -
+        .menu-container
+          button Reset
+          button Hint

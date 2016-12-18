@@ -4,9 +4,6 @@
 
 // Fonts
 
-@import url('https://fonts.googleapis.com/css?family=Passion+One');
-$font-family--passion : 'Passion One', cursive;
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 $font-family--montserrat : 'Montserrat', sans-serif;
 
@@ -25,19 +22,6 @@ $color--darkgray : #333;
   clear: both;
 }
 
-.sr-only {
-  display: none;
-}
-
 /* FUNCTIONS */
-@keyframes opacity-change {
-  0%, 100% {
-    border-left: 2px solid rgba(169, 146, 212, 0);
-    border-right: 2px solid rgba(169, 146, 212, 0);
-  }
-  50% {
-    border-left: 2px solid rgba(169, 146, 212, 1);
-    border-right: 2px solid rgba(169, 146, 212, 1);
-  }
-}
+
 
